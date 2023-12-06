@@ -5,7 +5,7 @@ header {
   top: 0;
   left: 0;
   display: flex;
-  background-color: $black;
+  border-bottom: 0.2rem solid rgba($color: $white, $alpha: 0.2);
 
   .container {
     @include flex(row, center, space-between);
